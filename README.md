@@ -1,4 +1,4 @@
 android_device_samsung_trebon
 =============================
 
-device tree to build omnirom
+Device configuration for Samsung GT-S7500 
