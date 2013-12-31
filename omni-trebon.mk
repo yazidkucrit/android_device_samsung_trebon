@@ -12,11 +12,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-##Inherit from our custom product configuration
+# Inherit Omni GSM telephony parts
 $(call inherit-product, vendor/omni/config/gsm.mk)
+
+# Inherit from our omni product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
 
-## Inherit device files
+# Inherit device configuration
 $(call inherit-product, device/samsung/trebon/trebon.mk)
 
 ## Setup device configuration
