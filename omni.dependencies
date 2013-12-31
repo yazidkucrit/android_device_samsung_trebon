@@ -14,7 +14,7 @@
   {
     "remote": "TheWhisp",
     "repository": "proprietary_vendor_samsung_msm7x27a",
-    "target_path": "vendor/msm7x27a-common",
+    "target_path": "vendor/samsung/msm7x27a-common",
     "revision": "cm-10.2"
   },
   {
