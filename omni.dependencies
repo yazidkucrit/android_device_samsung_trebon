@@ -15,12 +15,12 @@
     "remote": "TheWhisp",
     "repository": "proprietary_vendor_samsung_msm7x27a",
     "target_path": "vendor/samsung",
-    "revision": "cm-10.2"
+    "revision": "android-4.4"
   },
   {
     "remote": "yazidkucrit",
     "repository": "kernel_KeongBalap",
     "target_path": "kernel/samsung/msm7x27a-common",
-    "revision": "master"
+    "revision": "android-4.4"
   }
 ]
