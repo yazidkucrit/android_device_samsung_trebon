@@ -6,7 +6,7 @@
     "revision": "android-4.4"
   },
   {
-    "remote": "yazidkucrit",
+    "remote": "TesterTerbon",
     "repository": "android_device_samsung_trebon",
     "target_path": "device/samsung/trebon",
     "revision": "android-4.4"
