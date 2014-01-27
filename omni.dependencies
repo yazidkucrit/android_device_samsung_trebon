@@ -14,7 +14,7 @@
   {
     "remote": "TesterTerbon",
     "repository": "kernel_KeongBalap",
-    "target_path": "kernel/samsung/msm7x27a-common",
+    "target_path": "kernel/samsung/msm7x27a",
     "revision": "android-4.4"
   }
 ]
