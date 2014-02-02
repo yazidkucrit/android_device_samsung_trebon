@@ -1,4 +1,3 @@
-
 #
 # system.prop for trebon
 #
@@ -14,7 +13,7 @@ ro.ril.gprsclass=12
 
 ## Wi-Fi interface
 wifi.interface=wlan0
-wifi.supplicant_scan_interval=60
+wifi.supplicant_scan_interval=180
 
 ## Bluetooth
 ro.bt.bdaddr_path=/data/misc/bluedroid/bdaddr
