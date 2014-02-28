@@ -19,6 +19,10 @@ BUILD_RECOVERY := true
 
 include device/samsung/msm7x27a-common/msm7x27a.mk
 
+## Build torch app
+PRODUCT_PACKAGES += \
+    Torch
+
 ifndef BUILD_RECOVERY
 ## Splash screen
 PRODUCT_COPY_FILES += \
