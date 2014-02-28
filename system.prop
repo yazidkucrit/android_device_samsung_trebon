@@ -35,7 +35,7 @@ use.non-omx.aac.decoder=true
 
 ## Memory
 sys.mem.max_hidden_apps=8
-ro.config.low_ram=true
+ro.config.low_ram=false
 
 ## Webkit
 persist.webview.provider=classic
