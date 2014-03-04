@@ -33,4 +33,6 @@ PRODUCT_COPY_FILES += \
     device/samsung/trebon/rootdir/init-cwm.rle:root/GT-S7500.rle
 endif
 
+ROM_BUILDTYPE := NIGHTLY
+
 $(call inherit-product, vendor/samsung/trebon/blobs.mk)
