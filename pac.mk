@@ -12,17 +12,17 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Inherit Omni GSM telephony parts
-$(call inherit-product, vendor/omni/config/gsm.mk)
+## Specify phone tech before including full_phone
+$(call inherit-product, vendor/cm/config/gsm.mk)
 
-# Inherit from our omni product configuration
-$(call inherit-product, vendor/omni/config/common.mk)
+## Inherit common CM stuff.
+$(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
-# Inherit device configuration
+## Inherit device files
 $(call inherit-product, device/samsung/trebon/trebon.mk)
 
 ## Setup device configuration
-PRODUCT_NAME := omni_trebon
+PRODUCT_NAME := pac_trebon
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_MODEL := GT-S7500
