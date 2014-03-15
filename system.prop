@@ -37,17 +37,9 @@ use.non-omx.aac.decoder=true
 sys.mem.max_hidden_apps=8
 ro.config.low_ram=true
 
-## Webkit
-persist.webview.provider=classic
-
 ## Qualcomm
 ro.vendor.extension_library=/system/lib/libqc-opt.so
 com.qc.hardware=true
-
-## FM
-ro.fm.analogpath.supported=true
-ro.fm.transmitter=false
-ro.fm.mulinst.recording.support=false
 
 ## USB, storage
 persist.sys.usb.config=mtp,adb
