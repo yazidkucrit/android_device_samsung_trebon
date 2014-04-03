@@ -7,7 +7,7 @@
   },
   {
     "remote": "github",
-    "repository": "trebon-chocodot/Android_SpeedKernel",
+    "repository": "trebon-chocodot/android_kernel_bekicot",
     "target_path": "kernel/samsung/msm7x27a",
     "revision": "master"
   }
